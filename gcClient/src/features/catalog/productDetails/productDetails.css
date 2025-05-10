@@ -1,0 +1,146 @@
+
+.details-img-list{
+    position: sticky;
+    top: 150px;
+    width: 10%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    position: sticky;
+    top: 30%;
+    /* margin-right: 20px; */
+}
+
+.details-img-list-item{
+
+    height: 12.6%;
+    padding-bottom: 5px;
+}
+.details-img-list-item:nth-last-child(){
+    padding: 0;
+}
+
+
+.productDetail-active-img{
+    background-color: #e7e6e6;
+    height: 98%;
+    /* max-width: 80%; */
+    /* height: 100%; */
+    object-fit: cover;
+
+}
+
+.details-img-list-item:nth-child(1){
+    margin-top: 0;
+}
+
+
+
+.prodcutDetails-imgBtn{
+    height: 60%;
+    width: 60%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+.m-pathLink{
+    text-transform: lowercase;
+    font-weight: 500;
+    font-size: 15px;
+    /* margin-bottom: 100px; */
+}
+
+.m-selectBox{
+    width: 100%;
+    padding: 10px;
+    font-family:serif;
+}
+
+.select-items div{
+    padding: 10px;
+}
+
+
+.imgDiv{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    background-image: url('/images/diamond-1.avif');
+    position: relative;
+}
+
+
+.imgDiv-link{
+    color: white;;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+.imgDiv-link::before{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    padding-bottom: 10px;
+    left: 0;
+    background-color: white;
+}
+
+.imgDiv-link:hover::before{
+    animation-name: btn-arrow-animation;
+    animation-duration: 1.6s;
+}
+
+
+
+
+
+.m-arrow-btn{
+    border: 0;
+    padding: 15px;
+    background-color: #F7F7F7;
+    border-radius: 50%;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+/* .swiper-pagination {
+    margin-top: 70px;
+}
+.swiper-pagination-bullet{
+    background-color: black !important;
+} 
+
+.swiper-pagination-bullet-active{
+    background-image: ;
+} */
+
+.swiper-pagination-bullet > img {
+    content: url('../../assets/images/dot.png');
+}
+
+.swiper-pagination-bullet-active > img {
+    content: url('../../assets/images/starIcon.png');
+}
+
+.pagination-bullet {
+    width: 1.5rem;
+    margin: 0 0.1rem;
+}
+
+
+@keyframes btn-arrow-animation {
+    0 {left: 0;}
+    50% {left: 200px;}
+    51% {left: -200px;}
+    100% {left: 0;}
+  }
+
+

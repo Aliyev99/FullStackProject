@@ -1,0 +1,68 @@
+.filter-btn {
+    border: 0;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 10px
+}
+
+.filter-btn::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+}
+
+.filter-btn:hover::before {
+    animation-name: btn-arrow-animation;
+    animation-duration: 1.6s;
+    /* animation-iteration-count: 2; */
+}
+
+.m-menu-backdrop {
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: #7F7E7F;
+    opacity: 0;
+    z-index: 1001;
+    visibility: hidden;
+}
+
+.m-menu-backdrop.show-backdrop{
+    opacity: 0.5;
+    visibility: visible;
+    transition: opacity 0.5s;
+}
+
+/* body{
+    overflow: hidden;
+} */
+
+
+@keyframes btn-arrow-animation {
+    0% {
+        left: 0;
+    }
+
+    50% {
+        left: 200px;
+    }
+
+    51% {
+        left: -200px;
+    }
+
+    100% {
+        left: 0;
+    }
+}

@@ -1,0 +1,25 @@
+.accaunt-btn{
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+    width: 40%;
+    font-size: 23px;
+    font-weight: 100;
+    font-family: 'sherif';
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.m-underline{
+    border-bottom: 1px solid black;
+    width: 20%;
+}
+
+.m_textfield:focus{
+    border-color: red !important;
+}
+
+.m-active{
+    border-bottom: 2px solid black;
+}

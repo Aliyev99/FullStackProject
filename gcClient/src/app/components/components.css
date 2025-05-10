@@ -1,0 +1,88 @@
+/* .m-radiobtn-container{
+    display: block;
+} */
+
+
+.m-radio-btn{
+    color: #212A2F;
+    background-color: transparent;
+    border-radius: 5%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #212A2F;
+    position: relative;
+}
+
+.m-radio-btn-selected{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+
+.m-radio-btn:hover{
+    background-color: #D3D4D5;
+}
+
+.m-radio-btn-selected:hover{
+    background-color: black;
+}
+
+.m-radio-btn-not-exist{
+    border-color: #D3D4D5;
+}
+
+.not-exist-line{
+    width: 140%;
+    /* border-radius: 20px; */
+    transform: rotate(-45deg);
+    /* height: 10px; */
+    /* color: red; */
+    position: absolute;
+    z-index: -1;
+    border: 1px solid #D3D4D5;
+}
+
+.m-radio-btn-not-exist:hover{
+    background-color: transparent;
+}
+
+.m-radio-btn::after{
+    content: "";
+    display: block;
+    padding-bottom: 140%;
+    text-align: center;
+}
+
+
+.MuiFormControl-root{
+    margin-left: 0 !important;
+}
+
+.m-arrow{
+    width: 10px;
+    height: 10.5px;
+    margin-right: 10px;
+    border-bottom: 2px solid black;
+    display: block;
+    transform: rotate(45deg);
+    border-right: 2px solid black;
+    transition: all 0.5s ease-in-out;
+}
+
+.rotate{
+    transform: rotate(228deg);
+}
+
+
+
+@keyframes rotateAnimation{
+    100%{
+        transform: rotate(180deg);
+    }
+}
+
+
+
+

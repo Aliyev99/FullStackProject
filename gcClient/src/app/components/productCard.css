@@ -1,0 +1,95 @@
+.m-cardMedia{
+    background-color: #F2F2F2;
+}
+
+.cardBox{
+
+    width: 100%;
+    border: none; 
+    position: relative;
+    background-color: #e7e6e6;
+    min-height: 55vh;
+}
+
+
+
+
+
+.m-card {
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    display: block;
+    position: relative;
+    padding: 30px;
+    /* min-height: 55vh; */
+    background-image: linear-gradient(to right bottom, #E0E0E0, #F3F2F3);
+
+}
+.m-card-img{
+    width: 100%;
+    background-size: contain;
+    /* position: absolute; */
+    /* top: 0px;
+    left: 0px; */
+    
+}
+
+
+.m-card-back-btn{
+    width: 12%;
+    height: 100%;
+    border: 0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: transparent;
+    visibility: hidden;
+}
+.m-card-next-btn{
+    width: 12%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000000;
+    background-color: transparent;
+    visibility: hidden;
+}
+
+.m-card:hover .m-card-back-btn, .m-card:hover .m-card-next-btn{
+    visibility: visible;
+}
+
+.m-card-back-btn:hover,.m-card-next-btn:hover{
+    /* color: red; */
+    z-index: 2;
+}
+
+
+/* .m-slider-img-btn{
+    border: 0;
+}
+
+.m-slider-img-btn:hover{
+    border: 1px solid grey;
+} */
+
+/* .cardGemstone-img{
+    width: 20px;
+    margin-right: 5px;
+    border-radius: 50%;
+} */
+
+
+
+/* .carousel-control-prev-icon {
+    height: 25px !important;
+}
+
+.carousel-control-next-icon {
+    height: 25px !important;
+} */

@@ -1,0 +1,68 @@
+--select * from Jewelleries
+
+
+insert into Jewelleries(Brand, [Weight], ForGender, JewelryType, AvailableSizes, Ref, [Name], PictureUrl, Title, Description, QuantityInStock, Price) 
+Values('Bulgary', 1, 'Woman', 'Ring', '49,50,51,52,53,54,55,56',  361229, 'BVLGARI CABOCHON RING', '/images/product/ring/ringCobochon.avif', 'Bulgari Cabochon 18 kt yellow gold ring', 
+'Like a drop of gold crafted into a perfect harmony of volumes and shapes, the Bulgari Cabochon ring in 18 kt yellow gold is a tactile experience that displays the art of mastering the matter and turning it into something dynamic and alive. 
+Drawing inspiration from the smooth cabochon cut – an aesthetic Bulgari signature since the 1950s that elevates the natural charm of gemstones – the jewel enhances the precious metal that reveals the organic purity of gold.  
+Bulgari Cabochon ring in 18 kt yellow gold    ', 10, 3000);
+
+go
+
+insert into Jewelleries(Brand, [Weight], ForGender, JewelryType, AvailableSizes, Ref, [Name], PictureUrl, Title, Description, QuantityInStock, Price) 
+Values('Bulgary', 1, 'Woman', 'Ring', '49,50,51,52,53,54,55,56',  359000, 'B.ZERO1 RING', '/images/product/ring/zero1Rose.avif', 'BB.zero1 18 kt rose gold three-band ring set with full pavé diamonds along its edges', 
+'Drawing its inspiration from the world’s most renowned amphitheatre, the Colosseum, the B.zero1 three-band ring in 18 kt rose gold is a ground-breaking statement of Bulgari’s creative', 10, 6900);
+
+go
+
+insert into Jewelleries(Brand, [Weight], ForGender, JewelryType, AvailableSizes, Ref, [Name], PictureUrl, Title, Description, QuantityInStock, Price) 
+Values('Bulgary', 1, 'Woman', 'Ring', '48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75',  360367, 'B.ZERO1 RING', '/images/product/ring/bvlRing3.avif', 'B.zero1 Essential 18 kt yellow gold band ring', 
+'A contemporary statement of elegance inspired by Bulgari’s Roman roots, the B.zero1 Essential ring is crafted in 18 kt yellow gold. 
+Focusing on the essential aesthetic codes of the line, the ring sports the famed logo of the brand, an iconic signature which has evolved into a distinctive element of design. 
+Easy to wear and effortlessly stackable, the versatile creation offers modern yet timeless styling options to skilfully match your personality.  B.zero1 Essential 18 kt yellow gold ring.    ', 10, 1300);
+
+go
+
+insert into Jewelleries(Brand, [Weight], ForGender, JewelryType, AvailableSizes, Ref, [Name], PictureUrl, Title, Description, QuantityInStock, Price) 
+Values('Bulgary', 1, 'Woman', 'Ring', '45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73',  346090, 'SAVE THE CHILDREN RING', '/images/product/ring/bvlRing4.avif', 'Save the Children one-band sterling silver ring with black ceramic', 
+'Honouring Bvlgari’s ongoing philanthropic partnership with Save the Children, the ring in sterling silver and black ceramic is inspired by the B.zero1 jewelry collection and engraved with the charity’s logo. 
+Bulgari will donate 95€ from every sale to support the Save the Children programs worldwide. Save the Children one-band sterling silver ring with black ceramic.    ', 10, 600);
+
+go
+
+insert into Jewelleries(Brand, [Weight], ForGender, JewelryType, AvailableSizes, Ref, [Name], PictureUrl, Title, Description, QuantityInStock, Price) 
+Values('Bulgary', 1, 'Woman', 'Ring', '52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69',  358764, 'SERPENTI RING', '/images/product/ring/bvlRing5.avif', 'Serpenti Viper wedding band in 18 kt rose gold (6 mm thick)', 
+'A symbol of endless metamorphosis and mesmerising seduction, the Serpenti Viper wedding band in 18 kt rose gold blends irresistible sensuality with hypnotic design. 
+Sophisticated and glamorous, in this thicker interpretation (height 6 mm) the ring coils around the finger with the precious beauty of its scales, conjuring the distinctive sinuosity of the snake.', 10, 2000);
+
+go
+
+insert into Jewelleries(Brand, [Weight], ForGender, JewelryType, AvailableSizes, Ref, [Name], PictureUrl, Title, Description, QuantityInStock, Price) 
+Values('Bulgary', 1, 'Woman', 'Ring', '48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66',  359610, 'B.ZERO1 RING', '/images/product/ring/bvlRing6.avif', 'B.zero1 18 kt yellow gold one-band ring with openwork logo spiral  SELECT SIZE', 
+'Drawing its inspiration from the most renowned amphitheatre in the world, the Colosseum, the B.zero1 one-band ring in 18 kt yellow gold is a ground-breaking statement of Bulgari’s creative vision. 
+Challenging the very essence of jewellery aesthetics, its distinctive spiral is reimagined in an unforeseen way, featuring the iconic BULGARI logo as a bold element of design.  
+B.zero1 one-band ring in 18 kt yellow gold.    Ref.: 359610   Material​: Yellow gold   Gemstone: No Gemstones   Size: 48   Resizable: Not Resizable   Made In: Italy   How to wear  ', 10, 1300);
+
+go
+
+insert into Jewelleries(Brand, [Weight], ForGender, JewelryType, AvailableSizes, Ref, [Name], PictureUrl, Title, Description, QuantityInStock, Price) 
+Values('Bulgary', 1, 'Woman', 'Ring', '48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66',  356448, 'DIVAS’ DREAM RING', '/images/product/ring/bvlRing7.aviff', "DIVAS' DREAM ring in 18 kt rose gold set with malachite elements and pavé diamonds", 
+"A refined embodiment of Italian glamour, the DIVAS' DREAM 18 kt rose gold ring pays homage to the most fascinating divas with Roman spirit. 
+Inspired by feminine elegance, its fan-shaped motif is rendered through malachite inserts framed by pavé diamonds: an unmistakable signature conjuring the sensual pattern of Rome’s Caracalla mosaics, in a tribute to timeless beauty.  
+DIVAS' DREAM 18 kt rose gold ring with malachite inserts and pavé diamonds.", 10, 2950);
+
+go
+
+insert into Jewelleries(Brand, [Weight], ForGender, JewelryType, AvailableSizes, Ref, [Name], PictureUrl, Title, Description, QuantityInStock, Price) 
+Values('Bulgary', 1, 'Woman', 'Ring', '48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66',  359037, 'DIVAS’ DREAM RING', '/images/product/ring/bvlRing8.avif', "DIVAS' DREAM ring in 18 kt rose gold set with malachite elements and pavé diamonds", 
+"A refined embodiment of Italian glamour, the DIVAS' DREAM 18 kt rose gold ring pays homage to the most fascinating divas with Roman spirit. 
+Inspired by feminine elegance, its fan-shaped motif is rendered through malachite inserts framed by pavé diamonds: an unmistakable signature conjuring the sensual pattern of Rome’s Caracalla mosaics, in a tribute to timeless beauty.  
+DIVAS' DREAM 18 kt rose gold ring with malachite inserts and pavé diamonds.", 10, 4500);
+
+go
+
+insert into Jewelleries(Brand, [Weight], ForGender, JewelryType, AvailableSizes, Ref, [Name], PictureUrl, Title, Description, QuantityInStock, Price) 
+Values('Bulgary', 1, 'Woman', 'Ring', '41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75',  357873, 'SERPENTI VIPER RING', '/images/product/ring/bvlRing9.avif', 'Serpenti Viper two-coil 18 kt rose gold ring set with demi-pavé diamonds  SELECT SIZE', 
+'An ultra-modern interpretation of Bvlgari’s famed icon of glamour and seduction, Serpenti Viper enchants with its innovative and cutting-edge design.
+Abstracting the mythical snake through geometric and sleek shapes, the ring coils around the finger striking with the precious beauty of the scales and with the distinctive sinuosity of the Serpenti collection.  
+Serpenti Viper two-coil ring in 18 kt rose gold with demi-pavé diamonds.    ', 10, 5200);

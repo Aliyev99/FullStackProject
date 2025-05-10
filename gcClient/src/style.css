@@ -1,0 +1,15 @@
+.regular-radio + label {
+    background-color: green;
+}
+
+.regular-radio:checked + label{
+    background-color: green;
+}
+
+input{
+    cursor: pointer;
+}
+
+.m-closeBtn{
+    cursor: pointer;
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "aKU8kdFCdRovB3q0mkPltAEiOaJk8b3Yy0tNq1YFN5g=",
+  "Source": "GoldStoreAPI",
+  "BasePath": "_content/GoldStoreAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
